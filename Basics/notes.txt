@@ -1,0 +1,7 @@
+Selectors
+
+Elements (Applied to all elements with the tag) - h1, p
+Classes (Applied to elements with the same class) - h1 class="someclass". .someclass {}
+Universal (Every element) - * {}
+IDs (applied to elements with the same ID) - h1 id="someid" . #someid{}
+Attributes (Set equal styles to all elements with attributes) - <button disabled> - [disabled]{color:red}

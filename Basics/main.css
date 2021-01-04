@@ -1,4 +1,15 @@
-p{
-    background: pink;
-    text-align: center;
+p {
+  background: pink;
+  text-align: center;
+}
+body {
+    font-family: 'Roboto', sans-serif;}
+h1 {
+  color: whitesmoke;
+}
+#product-overview{
+    color: rebeccapurple;
+}
+#prices {
+ color: #cc66ee;
 }
