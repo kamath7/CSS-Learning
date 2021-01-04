@@ -1,0 +1,26 @@
+p {
+  background: pink;
+  text-align: center;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-family: "Yellowtail", cursive;
+}
+#beautiful {
+  font-family: inherit;
+}
+/*Using Combinators */
+#beautiful p {
+  font-weight: bold;
+}
+/* h1 {
+  color: whitesmoke;
+}
+#product-overview {
+  color: rebeccapurple;
+}
+#prices {
+  color: #cc66ee;
+} */
