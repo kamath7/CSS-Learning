@@ -8,3 +8,5 @@ Margin Collapsing - The margin between two elements would be the larger margin
 
 Shorthand Properties 
 border-width, border-style, border-color - Short hand version would be: border: 2px dashed orange;
+
+Box sizing - Adds content+border+padding and excludes margins
