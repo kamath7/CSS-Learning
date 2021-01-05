@@ -1,0 +1,10 @@
+body {
+margin : 0;
+}
+#product-overview{
+    background: #ff1b88;
+    width: 100%;
+    height: 100%;
+    /* padding: 30px;
+    border: 5px solid black; */
+}
