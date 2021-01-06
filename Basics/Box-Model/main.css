@@ -23,8 +23,47 @@ body {
   width: 100%;
   background: chartreuse;
   padding: 8px 16px; /* 8px padding for top and bottom and 16px for left and right*/
+  /* display: inline-block; */
 }
 
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand{
+  font-weight: bold;
+  color: #234ec6;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 15%);
+  vertical-align: middle;
+}
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+
+}
 .main-nav__item {
   display: inline-block;
+  margin: 0 16px;
+
+}
+.main-nav__item a{
+  text-decoration: none;
+  color: #234ec6;
+}
+
+.main-nav__item a:hover{
+  color: white;
+}
+.main-nav__item a:active{
+  color: white;
 }
