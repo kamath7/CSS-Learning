@@ -1,14 +1,30 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-margin : 0;
+  margin: 0px;
 }
-#product-overview{
-    background: #ff1b88;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    /* padding: 30px;
+#product-overview {
+  background: #ff1b88;
+  width: 100%;
+  height: 528px;
+
+  /* padding: 30px;
     border: 5px solid black; */
+}
+.section-title {
+  color: #2defc6;
+}
+#porduct-overview h1 {
+  color: white;
+}
+
+.main-header {
+  width: 100%;
+  background: chartreuse;
+  padding: 8px 16px; /* 8px padding for top and bottom and 16px for left and right*/
+}
+
+.main-nav__item {
+  display: inline-block;
 }
