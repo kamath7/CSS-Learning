@@ -1,0 +1,23 @@
+nav {
+  margin-bottom: 16px;
+  background: orange;
+  padding: 8px 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+/*selector. anchor tag acts as parent */
+a.active {
+    color:purple;
+}
+.main-section {
+  height: 800px;
+  border: 1px solid #ccc;
+  padding: 16px;
+}
+
+.highlighted {
+  border: 2px solid orange;
+}
