@@ -4,3 +4,8 @@ CSS Class selector vs ID selectors -
 Difference in syntax (. vs #)
 CSS Class is reusable. CSS class allows you to mark and name things for styling purposes only. Most used selector type
 ID used only once per page. Also got non-CSS meaning (on-page link).IDs are to be used only if available
+
+!important overwrites specificity and all other selectors. Not a good thing to use. 
+not pseudo class aids in excluding a selector
+
+check for browser compatibilty using - caniuse.com 
