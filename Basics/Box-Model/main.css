@@ -44,6 +44,21 @@ body {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
 }
+.plan__title {
+  color: #05386b;
+}
+.plan__price {
+  color: #edf5e1;
+}
+
+.plan--highlighted .plan__title {
+  color: #edf5e1;
+}
+
+.plan--highlighted .plan__price {
+  color: #05386b;
+}
+
 .plan__features {
   list-style: none;
   margin: 0;
@@ -51,6 +66,22 @@ body {
 }
 .plan__feature {
   margin: 8px 0;
+}
+
+.button {
+  background: #05386b;
+  color: #edf5e1;
+  font: inherit; /* instead of using browser's styles now takes the parent's style */
+  border: 1.5px solid #05386b;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover,
+.button:active {
+  background: #edf5e1;
+  color: #05386b;
 }
 
 .main-header {
