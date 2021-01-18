@@ -84,6 +84,48 @@ body {
   color: #05386b;
 }
 
+.button:focus{
+  outline: none;
+}
+
+#key-features{
+  background: #379683;
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title{
+  color:  #edf5e1;
+  margin: 32px;
+}
+.key-feature__list{
+  list-style: none;
+  margin:0;
+
+  padding: 0;
+  text-align: center;
+}
+
+
+.key-feature{
+  display: inline-block;
+  width: 33%;
+}
+.key-feature__image{
+  background: #05386b;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #edf5e1;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.key-feature__description{
+  text-align: center;
+  font-weight: bold;
+  color:  #edf5e1;
+  font-size: 20px;
+}
 .main-header {
   width: 100%;
   background: #05386b;
