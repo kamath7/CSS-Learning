@@ -14,3 +14,5 @@ Box sizing - Adds content+border+padding and excludes margins
 Pseudo Classes - class of the element :hover
 Pseudo Elements - Select part of element. ::first-letter
 Focus pseudo class there for text and button. 
+
+float - used to position a element
