@@ -1,0 +1,2 @@
+Position fixed depends on the viewport
+Can apply positioning to any block or inline element

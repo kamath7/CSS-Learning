@@ -1,0 +1,112 @@
+
+ .main-header {
+    width: 100%;
+    background: #05386b;
+    font-family: "Open Sans Condensed", sans-serif;
+    position:fixed;
+    padding: 8px 16px; /* 8px padding for top and bottom and 16px for left and right*/
+    /* display: inline-block; */
+  }
+  
+  .main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .main-header__brand {
+    font-weight: bold;
+    color: #edf5e1;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 15%);
+    vertical-align: middle;
+  }
+  .main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+  }
+  .main-nav__item a {
+    text-decoration: none;
+    color: #379683;
+    font-weight: bold;
+    padding: 3px 0px;
+  }
+  /* .main-nav__item a::after {
+    content: "(Link)";
+    color: red;
+  } */
+  .main-nav__item a:hover,
+  .main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+  }
+  .main-nav__item--cta a {
+    color: #edf5e1;
+    background: #8ee4af;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  .main-nav__item--cta a:hover,
+  .main-nav__item--cta a:active {
+    color: #5cdb95;
+    background: wheat;
+    border: none;
+  }
+  
+  .button {
+    background: #05386b;
+    color: #edf5e1;
+    font: inherit; /* instead of using browser's styles now takes the parent's style */
+    border: 1.5px solid #05386b;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .button:hover,
+  .button:active {
+    background: #edf5e1;
+    color: #05386b;
+  }
+  
+  .button:focus{
+    outline: none;
+  }
+.main-footer{
+    background: #05386b;
+    color: #edf5e1;
+    padding: 32px;
+    margin-top: 48px;
+  }
+  .main-footer__links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .main-footer__link{
+    display: inline-block;
+    margin: 0 16px;
+  }
+  .main-footer__link  a{
+   color: #edf5e1;
+   text-decoration: none; 
+  }
+  
+  .main-footer__link a:hover,
+  .main-footer__link a:active{
+    color:  #5cdb95;
+  }
+
+ 

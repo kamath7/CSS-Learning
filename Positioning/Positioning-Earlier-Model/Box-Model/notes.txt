@@ -1,0 +1,18 @@
+Padding - Internal space between content and border
+Border- Surrounds an element. Part of core element
+Margin  - Space between element and next element
+
+All of these form the box model
+
+Margin Collapsing - The margin between two elements would be the larger margin
+
+Shorthand Properties 
+border-width, border-style, border-color - Short hand version would be: border: 2px dashed orange;
+
+Box sizing - Adds content+border+padding and excludes margins
+
+Pseudo Classes - class of the element :hover
+Pseudo Elements - Select part of element. ::first-letter
+Focus pseudo class there for text and button. 
+
+float - used to position a element
