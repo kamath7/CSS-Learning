@@ -1,0 +1,11 @@
+position can have static(default), fixed, absolute, relative & sticky 
+
+Document flow - Default positioning behaviour of html elements. Can be changed with position. Elements can remain in the document flow or be excluded from it
+
+Move elements using top, bottom, left right after use of position property.
+
+Positioning Context - Defines anchor point for position change. Viewport for fixed. Another element for absolute. Element itself is relative. Viewport and another element is sticky
+Z-index - Changes default element positioning along the z axis 
+auto as default value. Changes only possible when position is applied. Larger value means element is positioned on top of other elements
+
+Stacking context - Created when applying fixed/sticky or absolute/relative in combination with z-index . Defines stacking behavior of child elements
