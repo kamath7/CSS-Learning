@@ -1,0 +1,6 @@
+Background & Images -
+
+background-repeat
+bacground-size cover finds out which aspect is more important
+contain 
+backgorund position: first value defines x axis value. second value relates to crop

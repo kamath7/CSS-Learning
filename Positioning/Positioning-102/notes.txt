@@ -1,0 +1,3 @@
+position: sticky - Hybrid of relative and fixed. becomes fixed once a certain border is reached and is dependent on viewport
+
+Sticky recent feature and has lesser browser support. 

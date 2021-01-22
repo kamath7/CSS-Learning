@@ -1,2 +1,7 @@
 Position fixed depends on the viewport
 Can apply positioning to any block or inline element
+
+for fixed and absolute - top right left from the html
+for relative - from current position how the element should move
+overflow: hidden - hides any element that is out side the parent element
+if overflow: hidden applied to body element it will be passed to html selector
