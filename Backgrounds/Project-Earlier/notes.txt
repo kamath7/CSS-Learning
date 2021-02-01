@@ -13,3 +13,7 @@ background - repeat - defines how background images are repeated
 bacground-origin - set background positioning area 
 background-clip - defines whether background extends underneath border 
 background-attachement - scrolling behavior of the background image.
+  background-image: radial-gradient(ellipse farthest-side at 20% 50%, red, blue, green);
+  background-image: radial-gradient(ellipse closest-corner at 20% 50%, red, blue, green);
+
+filter property - Changing visuals quickly
