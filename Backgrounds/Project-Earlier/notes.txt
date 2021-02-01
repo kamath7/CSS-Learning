@@ -4,3 +4,12 @@ background-repeat
 bacground-size cover finds out which aspect is more important
 contain 
 backgorund position: first value defines x axis value. second value relates to crop
+
+Background-image - set one or more background images 
+background- color - set a color 
+background-position - set initial position relative to background position layer
+background  - size - Set size of background image 
+background - repeat - defines how background images are repeated 
+bacground-origin - set background positioning area 
+background-clip - defines whether background extends underneath border 
+background-attachement - scrolling behavior of the background image.

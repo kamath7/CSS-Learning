@@ -7,11 +7,20 @@ body {
 }
 #product-overview {
   /* background: url("./freedom.jpg"); this is shorthand */
-  background-image: url("./freedom.jpg");
-  background-size: cover;
-   /* setting the width and the height */
-   background-position: left 10% bottom 20%;
+  /* background-image: url("./freedom.jpg");
+  background-size: cover; */
+  /* setting the width and the height */
+  /* background-position: left 10% bottom 20%;
   background-repeat: no-repeat;
+  background-origin: border-box; ensures images beneath border */
+  /* background-clip: padding-box; */
+  /* background-attachment: scroll; */
+  
+  /* shorthand */
+  /* background: url("freedom.jpg") left 10% bottom 20% / cover no-repeat */
+    /* border-box padding-box; */
+  /* border: 5px dashed red; */
+  background-image: linear-gradient(180deg, red 10%, blue 30%,green 30%, rgba(0,0,0,0.5));
   width: 100%;
   height: 528px;
   padding: 10px;
