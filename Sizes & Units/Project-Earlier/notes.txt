@@ -1,0 +1,34 @@
+Pixel is fixed font size. 
+More units available in CSS - pixels (px), percentages(%), root em (rem - related to font size), em (also refers to font size), viewport height(vh), viewport width (vw)
+
+rem & em difference
+
+where units can be used 
+
+font-size - px can be used.
+padding, border, margin
+width, height 
+top, bottom
+left,right
+
+How is size calculated
+
+Absolute Lengths (px,cm,mm)
+Mostly ignore user settings
+On a monitor 1cm!=1cm.
+
+Viewport Lengths
+Adjust to current viewport 
+vh, vw,vmin, vmax
+
+Font-relative Lengths
+Adjust to default font size 
+rem,em 
+
+Another category is %
+
+How the box size for % units calculated?
+
+Rules to rember : Fixed positioning & %
+a) Element - for position:fixed - reference point is containing block. Element changes to viewport 
+
