@@ -31,4 +31,5 @@ How the box size for % units calculated?
 
 Rules to rember : Fixed positioning & %
 a) Element - for position:fixed - reference point is containing block. Element changes to viewport 
-
+b) Position absolute - refers to ancestors content + padding 
+c) Position static or position relative - Refers to ancestors content only
