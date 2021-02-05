@@ -38,3 +38,21 @@ em calculated based on actual size of element and the font size of the browser
 1em approx 16px
 
 rem - take browser font size and multiply it by the value of rem (for e.x 1.1rem = 1.1 * browser font size)
+vmin - takes the value specified at the minimum resolution (80vmin - takes 80% of the screen width at minimum)
+
+Property & Recommended unit 
+a) font-size(root element)- Recommended units are % (100%, 50%) and another possible unit is nothing to keep it inline with browser Property
+b) font-size: rem (em=>children only)
+c) padding and margin - use rem 
+d)border - use px
+e) width & height - use % or vw/vh/vmin/vmax 
+f) top & bottom - use %
+
+
+margin-auto and text-align center for displaying block elements in the center 
+
+Units - px percentages rem&em, viewport and auto 
+Containing block - 
+reference point when applying % units to an element 
+depends on position property applied to the element 
+can be closest ancestor or the viewport

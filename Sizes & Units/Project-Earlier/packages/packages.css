@@ -1,7 +1,9 @@
 main {
     padding-top: 2rem;
 }
-
+body::-webkit-scrollbar{
+    width: 0;
+  }
 .background {
     background: url("../images/plans-background.jpg") center/cover;
     filter: grayscale(40%);
