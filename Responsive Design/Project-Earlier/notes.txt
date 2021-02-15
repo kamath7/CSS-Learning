@@ -1,0 +1,6 @@
+Hardware vs Software pixels
+
+1in = 2.54cm
+Browser is able to identify hardware size but will convert the website to be cluttered
+
+Viewport meta tag- Make device consider software pixel rather than hardware pixel
