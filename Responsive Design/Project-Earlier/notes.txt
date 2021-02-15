@@ -4,3 +4,18 @@ Hardware vs Software pixels
 Browser is able to identify hardware size but will convert the website to be cluttered
 
 Viewport meta tag- Make device consider software pixel rather than hardware pixel
+
+We have two tools to make site responsive
+a) ViewPort b) MEdia Queries
+
+ViewPort -
+Adjust site to device viewport 
+No design changes 
+
+Media Queries
+Change design depending on size
+Design changes defined by user
+
+user-scalable=no - to not let end user zoom into the page
+maximum-scale=2.0 - maximum zoom limit setter 
+minimum-scale=1.0 - minimum zoom limit setter 
