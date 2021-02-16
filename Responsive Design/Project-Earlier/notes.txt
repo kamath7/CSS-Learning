@@ -19,3 +19,7 @@ Design changes defined by user
 user-scalable=no - to not let end user zoom into the page
 maximum-scale=2.0 - maximum zoom limit setter 
 minimum-scale=1.0 - minimum zoom limit setter 
+
+Media queries are to be ordered as per the ascending order
+768px, 1000px - breaking points
+media queries to be added at the bottom
