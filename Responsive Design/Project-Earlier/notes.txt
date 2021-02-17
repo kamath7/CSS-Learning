@@ -23,3 +23,6 @@ minimum-scale=1.0 - minimum zoom limit setter
 Media queries are to be ordered as per the ascending order
 768px, 1000px - breaking points
 media queries to be added at the bottom
+
+Conditional query - @media (min-width: 40rem) and (min-height: 60rem)
+@media (min-width: 40rem) , (orientation: landscape) - similar to or  one of the conditions must be true 
