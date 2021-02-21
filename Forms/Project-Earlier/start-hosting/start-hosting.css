@@ -7,12 +7,11 @@ main {
   color: #ff5454;
 }
 
-.signup-form{
-    padding: 1rem;
-
+.signup-form {
+  padding: 1rem;
 }
-.signup-form label{
-    font-weight: bold;
+.signup-form label {
+  font-weight: bold;
 }
 .signup-form label,
 .signup-form input,
@@ -22,35 +21,49 @@ main {
 }
 
 /* .signup-form input[type="checkbox"],  -> Alternate approach*/
-.signup-form input[id*="terms"] ,
-.signup-form input[id*="terms"] + label
-{ /*selects all labels after input id =terms*/
-    display: inline-block;
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label {
+  /*selects all labels after input id =terms*/
+  display: inline-block;
+  width: auto;
+  vertical-align: bottom;
 }
 
-.signup-form input,
-.signup-form select{
-    border: 1px solid #CCC;
-    padding: 0.2rem 0.5rem; 
-    font: inherit;
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+  border: 1px solid #ccc;
+  padding: 0.2rem 0.5rem;
+  font: inherit;
 }
 
 .signup-form input:focus,
-.signup-form select:focus{
-    outline: none;
-    background: #d8f3df;
-    border-color: #2ddf5c;
+.signup-form select:focus {
+  outline: none;
+  background: #d8f3df;
+  border-color: #2ddf5c;
+}
+.signup-form input[type="checkbox"] {
+  border: 1px solid #ccc;
+  background: white;
+  width: 1rem;
+  height: 1rem;
+  -webkit-appearance: none; /* browserspecific */
+  -moz-appearance: none; /* for moziilla */
+  appearance: none;
+}
+.signup-form input[type="checkbox"]:checked {
+  background: #2ddf5c;
+  border: #0e4f1f;
 }
 
-
-.signup-form button[type="submit"]{
-    display: block;
-    margin-top: 1rem;
+.signup-form button[type="submit"] {
+  display: block;
+  margin-top: 1rem;
 }
 
-@media (min-width: 40rem){
-    .signup-form{
-        margin: auto;
-        width: 30rem;
-    }
+@media (min-width: 40rem) {
+  .signup-form {
+    margin: auto;
+    width: 30rem;
+  }
 }
