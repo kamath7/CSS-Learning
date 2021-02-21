@@ -1,0 +1,47 @@
+Element with attribute
+[type]{
+    color: red;
+}
+
+Element with specific attribute value
+[type="email"]{
+    color: red;
+}
+will select <input type="email"/>
+
+Element with specific attribute value in list 
+[lang~="en-us"]{
+    color: red;
+}
+
+<p lang="en-us en-gb">Hello</p>
+
+Element with specific attribute value
+[lang |="en]{
+    color:red;
+}
+lang should equal to en or begin with en 
+
+Element with specific value prefix 
+[href^="#"]{
+    color:red;
+}
+<a href="#all">Link</a>
+
+Element with specific attribute value suffix 
+[href$=".de"]{
+    color; red;
+}
+<a href="ab.de">Link</a>
+
+Element with atleast one attribute value 
+[src*="cdn"]{
+    color: red;
+}
+<img src="i.cdn.com"/>
+
+Check Values case-sensitively 
+[src *="cdn"]{
+    color: red;
+}
+<img src="i.CDN.com"/>
