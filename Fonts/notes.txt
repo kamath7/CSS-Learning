@@ -1,0 +1,13 @@
+Generic
+
+Serif -> Fonts -> Times New Roman, Georgia
+Sans Serif -> Helvetica, Verdana 
+cursive -> Brush Script, Mistral
+monospace -> Courier New, Lucida Bright
+fantasy (uncommon generic family)
+
+Default - Browser font 
+Generic Family - From CSS file 
+Font Family -> From User's computer, Web Fonts or Retrieved from Server
+
+If Font Family not applied - default browser settings applied 
