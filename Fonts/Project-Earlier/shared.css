@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif; /* sans-serif - generic family */
   margin: 0;
 }
 
@@ -216,10 +220,10 @@ main {
   border: #a1a1a1;
   background: #ccc;
   color: #a1a1a1;
-} 
+}
 
 .open {
-    display: block !important;
+  display: block !important;
 }
 
 @media (min-width: 40rem) {
