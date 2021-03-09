@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "AnonymousPro";
+  src: url('AnonymousPro-Regular.ttf')
+} /* importing a custom font */
+
+@font-face {
+  font-family: "AnonymousPro";
+  src: url('AnonymousPro-Bold.ttf') format("truetype"); /*gives browser additional info*/
+  src: url('AnonymousPro-Bold.ttf') ;
+  font-weight: 700;
+} /* if import multiple same fonts add the font weight */
+
 main {
   padding-top: 2rem;
 }
@@ -54,7 +66,9 @@ main {
   font-size: 1.2rem;
   color: #0e4f1f;
   background: white;
-  font-family: "Stick", sans-serif;
+  font-family: "AnonymousPro", sans-serif;
+  font-style: normal; /* 400 normal font weight , 700 - bold, */
+  /* font-style: bold; import the right font face */
 }
 
 .clearfix {
