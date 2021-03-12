@@ -11,3 +11,26 @@ Generic Family - From CSS file
 Font Family -> From User's computer, Web Fonts or Retrieved from Server
 
 If Font Family not applied - default browser settings applied 
+Some properties include -> 
+font-variant: small-caps;
+font-stretch: ultra-condensed;
+letter-spacing: 7px;    '
+white-space: pre;
+
+line-height - height of the content
+  
+  text-decoration: underline/overline;
+  text-decoration: line-through dotted;
+  text-shadow: 5px 5px;
+  text-shadow: 2px 2px 8px gray; /*third value is the blur property */
+
+font shorthand also can be written 
+
+    font: small-caps  1.2rem "AnonymousPro", sans-serif ; /*font-weight to the start*/
+font-style, font-variant, font-weight to the beginning after which we add font-size
+line height added after font-size
+  /*System fonts*/
+  font:status-bar/menu;
+
+Font-display - impacts loading behavior of custom fonts. Values->swap, block, fallback, optional, auto
+

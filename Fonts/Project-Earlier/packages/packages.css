@@ -1,12 +1,12 @@
 @font-face {
   font-family: "AnonymousPro";
-  src: url('AnonymousPro-Regular.ttf')
+  src: url("AnonymousPro-Regular.ttf");
 } /* importing a custom font */
 
 @font-face {
   font-family: "AnonymousPro";
-  src: url('AnonymousPro-Bold.ttf') format("truetype"); /*gives browser additional info*/
-  src: url('AnonymousPro-Bold.ttf') ;
+  src: url("AnonymousPro-Bold.ttf") format("truetype"); /*gives browser additional info*/
+  src: url("AnonymousPro-Bold.ttf");
   font-weight: 700;
 } /* if import multiple same fonts add the font weight */
 
@@ -61,14 +61,25 @@ main {
 }
 
 .package__info {
+  /*font shorthand */
+  /* font:  1.2rem "AnonymousPro", sans-serif; font-weight to the start */
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
   padding: 1rem;
   border: 1px solid #0e4f1f;
-  font-size: 1.2rem;
   color: #0e4f1f;
   background: white;
-  font-family: "AnonymousPro", sans-serif;
-  font-style: normal; /* 400 normal font weight , 700 - bold, */
+  /*System fonts*/
+  /* font:status-bar; */
+  /* font-size: 1.2rem; */
+  /* font-family: "AnonymousPro", sans-serif; */
+  /* font-style: normal; 400 normal font weight , 700 - bold, */
   /* font-style: bold; import the right font face */
+
+  /*extra */
+  /* line-height:2; */
+  /* text-decoration:  underline wavy red; */
+  /* text-shadow: 2px 2px 8px gray; third value is the blur property */
 }
 
 .clearfix {
