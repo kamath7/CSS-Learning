@@ -1,0 +1,5 @@
+Property - 
+display: flex /Parent is the flex container. Flex items are the children (child elements)
+flex containers also have properties like flex-flow, justify-content, align-content and align-items 
+flex items have properties such as order, flex, align-self
+
