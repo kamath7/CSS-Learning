@@ -3,3 +3,11 @@ display: flex /Parent is the flex container. Flex items are the children (child 
 flex containers also have properties like flex-flow, justify-content, align-content and align-items 
 flex items have properties such as order, flex, align-self
 
+flex-wrap - wrap-reverse -
+flex-direction: column - behaves the same way display: block
+
+main axis vs cross axis 
+flex-direction: row along the main axis and from left to right 
+flex-direction: row-reverse along the main axis and from right to left
+flex-direction: column starting point is the same as row. Main axis is from top to bottom and cross axis left to right. 
+flex-direction: column starting point is the same as row. Main axis is from top to bottom and cross axis right to left. 
