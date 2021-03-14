@@ -11,3 +11,15 @@ flex-direction: row along the main axis and from left to right
 flex-direction: row-reverse along the main axis and from right to left
 flex-direction: column starting point is the same as row. Main axis is from top to bottom and cross axis left to right. 
 flex-direction: column starting point is the same as row. Main axis is from top to bottom and cross axis right to left. 
+
+flew-flow : shorthand for flex-direction and flex-wrap
+align-items - default value is stretch
+
+align -items
+flex-direction: row applied 
+for case of flexdirection row: justify-content - positioning along main axis and align-items positioning along cross axis 
+
+flew-direction: column applied 
+for case of flexdirection column: justify-content positioning along main axis (column) and align items positioning along main axis (row)
+
+align-content: combination of align-items and justify-content
