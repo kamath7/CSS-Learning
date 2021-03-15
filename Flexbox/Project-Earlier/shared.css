@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
-@import url('https://fonts.googleapis.com/css?family=Anton');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,900");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
 * {
   box-sizing: border-box;
@@ -34,7 +34,7 @@ main {
   left: 0;
   background: #2ddf5c;
   padding: 0.5rem 1rem;
-  z-index: 1;
+  z-index: 60;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -153,12 +153,13 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-footer__link {
-  display: block;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .main-footer__link a {
@@ -228,15 +229,18 @@ main {
   border: #a1a1a1;
   background: #ccc;
   color: #a1a1a1;
-} 
+}
 
 .open {
-    display: block !important;
+  display: block !important;
 }
 
 @media (min-width: 40rem) {
   .main-footer__link {
-    display: inline-block;
     margin: 0 1rem;
+  }
+  .main-footer__links {
+    flex-direction: row;
+    justify-content: center;
   }
 }
