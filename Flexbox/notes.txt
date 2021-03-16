@@ -25,3 +25,12 @@ for case of flexdirection column: justify-content positioning along main axis (c
 align-content: combination of align-items and justify-content
   
 order: 1;/*default value for order is 0 */ and order:-1 will position it in front
+
+align-self - aligned across the cross axis 
+
+flex-grow: 0 /*initial value 0 */
+flex-shrink: 1;/*initial value 1 */
+if flex-shrink is 0 it won't let shrink lesser than it's width
+
+flex basis defines size of element dependent on main axis. 
+if flex-basis is auto, then width if flex-direction row else it will be height if flex-direction column
