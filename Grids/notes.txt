@@ -1,0 +1,6 @@
+Grid
+
+Creating highly customizable page layout
+
+Changing to Grid - display: grid;
+Default setting - One column and as many rows as child items
