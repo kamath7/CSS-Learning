@@ -1,6 +1,10 @@
 .container {
   margin: 20px;
   display: grid;
+  /* grid-template-columns: 200px 150px 20% auto ;4 columns */
+    grid-template-columns: repeat(4, 25%); /* 4 columns with 25% each */
+  grid-template-rows: 5rem minmax(20rem, 40rem);/* min height ele should have along with max height */
+  
 }
 
 .el1 {
@@ -9,10 +13,16 @@
 
 .el2 {
   background: rgba(255, 0, 0, 0.5);
+  grid-column-start: 1;
+  grid-column-end:-1;
 }
 
 .el3 {
   background: rgba(0, 128, 0, 0.5);
+  grid-column-start: 3; /*starting the element at col 3 */
+grid-column-end: span 2;/*default is span */
+  grid-row-start: 1;
+  grid-row-end: 4;
 }
 
 .el4 {

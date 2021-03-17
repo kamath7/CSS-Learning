@@ -4,3 +4,11 @@ Creating highly customizable page layout
 
 Changing to Grid - display: grid;
 Default setting - One column and as many rows as child items
+grid-template-columns - adding more than 1 column by specifying the width. 1fr(fr- fraction) meaning would take the remaining space 
+  grid-column-start: 3; /*starting the element at col 3*/
+  grid-column-end: 5;/*default is span*/
+  grid-row-start: 1;
+  grid-row-end: 4;
+grid-template-columns - setting to auto will take the available space for the content
+    grid-template-columns: repeat(4, 25%); /* 4 columns with 25% each */
+grid-column-end: span 2; End after occupying 2 cells 
