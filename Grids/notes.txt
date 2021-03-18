@@ -12,3 +12,12 @@ grid-template-columns - adding more than 1 column by specifying the width. 1fr(f
 grid-template-columns - setting to auto will take the available space for the content
     grid-template-columns: repeat(4, 25%); /* 4 columns with 25% each */
 grid-column-end: span 2; End after occupying 2 cells 
+
+ grid-template-rows: [row-1-start] 5rem minmax(20rem, 40rem); //naming the row row-1 start
+
+   /* shorthand*/
+  grid-column: 1 4; /*start value is gri-dcolumn start and second value is grid-column-end */
+  grid-row: 1 3;
+    grid-area: row-1-start / 2 / row-2-end / span 3 ; /*1st - grid-row-start , 2nd - grid-column-start , 3rd- grid-row-end, 4th- grid-column-end*/
+  grid-column-gap:100px; gap between columns 
+  grid-row-gap: 200px; gap between rows
