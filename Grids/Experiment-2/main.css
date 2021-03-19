@@ -1,26 +1,45 @@
 .container {
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 200px 2fr 20% 1fr;
-    grid-template-rows: 5rem 2.5rem;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 200px 2fr 20% 1fr;
+  grid-template-rows: 5rem 2.5rem;
+  /* justify-items: center;
+    align-items: center;
+    justify-content:start ;
+    align-content: center;
+*/
+}
+@media (max-width: 40rem) {
+  .container {
+    grid-template-rows: [hd-start] 5rem [hd-end row-2-start] minmax(
+        20rem,
+        40rem
+      ) [row-2-end row-3-start] 150px [row-3-end row-4-start]; /* min height ele should have along with max height */
+    grid-template-areas:
+      "header header header header"
+      "main main main main"
+      "side side side side"
+      "footer footer footer footer";
+  }
 }
 
 .el1 {
-    background: rgba(255, 154, 72, 0.5);
+  background: rgba(255, 154, 72, 0.5);
 }
 
 .el2 {
-    background: rgba(255, 0, 0, 0.5);
+  background: rgba(255, 0, 0, 0.5);
 }
 
 .el3 {
-    background: rgba(0, 128, 0, 0.5);
-    grid-column-start: 3;
-    grid-column-end: 5; 
-    grid-row-start: 1;
-    grid-row-end: 3;
+  background: rgba(0, 128, 0, 0.5);
+
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .el4 {
-    background: rgba(0, 4, 255, 0.5);
+  background: rgba(0, 4, 255, 0.5);
 }

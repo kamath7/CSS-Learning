@@ -21,3 +21,13 @@ grid-column-end: span 2; End after occupying 2 cells
     grid-area: row-1-start / 2 / row-2-end / span 3 ; /*1st - grid-row-start , 2nd - grid-column-start , 3rd- grid-row-end, 4th- grid-column-end*/
   grid-column-gap:100px; gap between columns 
   grid-row-gap: 200px; gap between rows
+
+
+  fit-content - takes arguement which is used for min 
+
+  justify-items 
+      align-items: center;
+    justify-content: positions entire grid across x-axis
+        align-content: center;
+grid-auto-rows - automatically generate rows
+grid-auto-flow - where new elements should be added 
