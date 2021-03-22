@@ -31,3 +31,21 @@ grid-column-end: span 2; End after occupying 2 cells
         align-content: center;
 grid-auto-rows - automatically generate rows
 grid-auto-flow - where new elements should be added 
+    
+grid-template-columns: repeat(auto-fill, 15rem);
+autofill -fill as many items as it can 
+autofit - alternative to autofill for lesser items
+
+
+Comparing Grid and Flexbox 
+
+CSS Grid 
+a) 2 - dimensional positioning
+
+CSS Flexbox
+a) 1 - dimensional positioning
+
+Points to remember
+a) grid-gap - add gaps between columns and rows 
+b) grid-row/grid-column - position elements. 
+c) span X - to span element over mutiple columns or rows 
