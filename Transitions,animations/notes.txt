@@ -1,0 +1,6 @@
+transformZ 
+transform-origin
+skewX()- slants the image to the left 
+skewY() - slants the image to the right
+scaleX() - increases width 
+scaleY() - increases height
