@@ -30,3 +30,13 @@ transition: WHAT_PROPERTY DELAY TIMING-FUNCTION
     transform: rotateZ(10deg);
   }
 }
+
+Keyframes:
+Keyframes- Define animation tsteps. Via from and to or % values 
+Animate as many props as you want 
+Animate different properties in each keyframe step 
+timing FUNCTION interpolates transition between keyframe 
+
+Animation :
+Set duration and delayDefine how many iterations should be played
+Animation0fill0mode - properties of last keyframe should be kept or not
