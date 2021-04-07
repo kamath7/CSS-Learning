@@ -4,3 +4,6 @@ skewX()- slants the image to the left
 skewY() - slants the image to the right
 scaleX() - increases width 
 scaleY() - increases height
+perspective - 3D effect
+perspective function - for each element and perspective property - to be appliedto parent
+perspective-origin
