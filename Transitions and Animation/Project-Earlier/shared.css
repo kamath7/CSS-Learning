@@ -175,6 +175,9 @@ main {
 .main-footer__link a:active {
   color: #ccc;
 }
+.main-nav__item--cta{
+  animation: wiggle 200ms 3s 8 none;
+}
 
 .mobile-nav {
   display: none;
@@ -249,5 +252,28 @@ main {
   .main-footer__links {
     flex-direction: row;
     justify-content: center;
+  }
+}
+
+/* @keyframes wiggle {
+  from {
+    transform: rotateZ(0);
+    
+  }
+  to{
+    transform: rotateZ(10deg);
+  }
+} */
+
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+    
+  }
+  50%{
+    transform: rotateZ(-10deg);
+  }
+  100%{
+    transform: rotateZ(10deg);
   }
 }

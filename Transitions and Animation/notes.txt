@@ -1,0 +1,32 @@
+Transitions - Changing Opacity, width. Specifiying which property to change and how fast should this animation last
+
+ease-in
+ease-out
+
+  transition: opacity 0.5s ease-out 1s, transform 0.5s ease-out 1s;
+
+value at the end is delay 
+transition: WHAT_PROPERTY DELAY TIMING-FUNCTION
+
+@keyframes wiggle {
+  from {
+
+  }
+  to{
+    
+  }
+}
+
+
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+    
+  }
+  50%{
+    transform: rotateZ(-10deg);
+  }
+  100%{
+    transform: rotateZ(10deg);
+  }
+}
