@@ -1,0 +1,2 @@
+Use :root to mention all CSS names
+Use var (--variable name) inside property
