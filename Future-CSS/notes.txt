@@ -20,3 +20,63 @@ body {
   height: 100%;
 }
 }
+
+Polyfill 
+
+Javascript packagethat enables certain CSS features in Browsers which would not support it otherwise
+Polyfills are a Javascript package that has to be loaded and parsed. It will impact the performance of the page
+
+Polyfill - rems(unit) which not followed by earlier browsers
+
+To eliminate cross -browser inconsistencies
+a) Browsers use different default - Different Margins, Paddings and also different box-sizing
+Reset libraries can be used such as normalize.css - Overwrites browser defaults
+
+Choosing Class Names 
+
+a) Use kebab-case and not snakeCase. Since CSS is case-sensitive
+b) Name class by feature(eg - main-header)
+
+Block Element Modifier (BEM)
+
+a) A uniform and consistent way of naming CSS classes
+b) E.x - .main-menu__item--size-big (.BLOCK__ELEMENT--MODIFIER)
+
+Component CSS Frameworks
+a) Bootstrap
+b) Foundation 
+
+Utility Frameworks
+a) Tailwind CSS
+
+Differences 
+
+Vanilla CSS 
+AD
+a) Full Control
+b) No unecessary code. (DRY)
+c) Name classes as you like 
+DISAD
+a) Build from scratch
+b) Danger of Bad code 
+
+Component Frameworks (Bootstrap)
+AD
+a) Rapid development
+b) Follow best practices 
+c) No need to be an expert 
+
+DISAD
+a) No control or little control 
+b)  unecessary overhead code 
+c) Websites look similar 
+
+Utility Frameworks (Tailwind)
+AD 
+a) Faster development
+b) Follows best practices 
+c) No expert knowledge needed. Some knowledge required though 
+
+DISAD
+a) Little COntrol 
+b) unecessary overhead code 
