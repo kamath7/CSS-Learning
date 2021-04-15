@@ -1,4 +1,12 @@
+$main-color: #521751;
+$colors: (
+  main: #fae5ff,
+  secondary: #fa923f,
+); /*map*/
+$border-default: 0.05rem solid $main-color; /*list */
+$fonts: Arial, sans-serif; /*also a  list */
 @import "typography.css";
+
 html {
   font-size: 94.75%;
 }
@@ -13,16 +21,18 @@ body {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex: {
+    direction: column;
+    wrap: nowrap;
+  }
   align-items: center;
   padding: 3rem 0;
   box-sizing: border-box;
 }
 
 .sass-introduction {
-  border: 0.05rem solid #521751;
-  background: #fae5ff;
+  border: $border-default;
+  background: map-get($colors, main); //one of the approaches
   padding: 2rem;
   text-align: center;
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
@@ -78,7 +88,7 @@ body {
   .documentation-link:hover,
   .documentation-link:active {
     color: white;
-    background: #fa923f;
+    background: map-get($colors, secondary);
     border-color: #fa923f;
   }
 }
