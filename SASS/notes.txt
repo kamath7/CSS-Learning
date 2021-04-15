@@ -1,0 +1,15 @@
+SASS/SCSS 
+
+Sytactically Awesome Style Sheets 
+Does not run in the browser. Extends CSS (During Dev)
+
+SASS Features 
+a) Nested Rules 
+b) Inheritance
+c) Helper Functions 
+d) Mixins
+e) Partials 
+f) Conditions and Loops 
+g) Variables 
+
+sass --watch main.scss main.css 
