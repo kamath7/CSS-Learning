@@ -16,3 +16,7 @@ sass --watch main.scss main.css
 
 function - lighten 
 inheritance - making classes. use @extend (@extend .sass-section;)
+
+mixin - repetitive code - similar to functions. @include keyword also to be used 
+
+ampersand operator - used in :hover, :active
