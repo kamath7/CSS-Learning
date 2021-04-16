@@ -14,7 +14,7 @@ html {
   font-size: 94.75%;
 }
 @media (min-width: 40rem) {
-  html html {
+  html {
     font-size: 125%;
   }
 }
@@ -98,8 +98,7 @@ body {
   padding: 0.2rem;
   border: 0.05rem solid #521751;
 }
-.documentation-links .documentation-link:hover,
-.documentation-links .documentation-link:active {
+.documentation-links:hover, .documentation-links:active {
   color: white;
   background: #fa923f;
   border-color: #fa923f;

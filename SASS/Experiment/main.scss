@@ -1,12 +1,22 @@
 @import "_variables.scss";
 @import "typography.scss";
 
+@mixin display-flex() {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin media-min-width($width) {
+  @media (min-width: 40rem) {
+    @content;
+  }
+}
 html {
   font-size: 94.75%;
-  @media (min-width: 40rem) {
-    html {
-      font-size: 125%;
-    }
+  @include media-min-width(40rem) {
+    font-size: 125%;
   }
 }
 
@@ -16,10 +26,7 @@ body {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  @include display-flex();
   flex: {
     direction: column;
     wrap: nowrap;
@@ -34,7 +41,7 @@ body {
   }
 }
 
-.sass-section{
+.sass-section {
   border: $border-default;
   // background: map-get($colors, main); //one of the approaches
   background: lighten(map-get($colors, main), 70%);
@@ -47,7 +54,6 @@ body {
 .sass-introduction {
   @extend .sass-section;
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
-
 }
 
 .sass-introduction p {
@@ -62,7 +68,6 @@ body {
   margin: $size-default * 8 0;
   width: 90%;
   box-sizing: border-box;
-  
 }
 
 .section-header {
@@ -96,8 +101,8 @@ body {
     border: 0.05rem solid #521751;
   }
 
-  .documentation-link:hover,
-  .documentation-link:active {
+ &:hover,
+ &:active {
     color: white;
     background: map-get($colors, secondary);
     border-color: #fa923f;
@@ -125,7 +130,6 @@ body {
 // }
 
 @media (min-width: 40rem) {
-
   .sass-introduction,
   .sass-details {
     width: 30rem;
