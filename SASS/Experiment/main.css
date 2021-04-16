@@ -1,9 +1,22 @@
 /*map*/
 /*list */
 /*also a  list */
-@import "typography.css";
+/*map*/
+/*list */
+/*also a  list */
+.char-highlight {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #fae5ff;
+}
+
 html {
   font-size: 94.75%;
+}
+@media (min-width: 40rem) {
+  html html {
+    font-size: 125%;
+  }
 }
 
 body {
@@ -19,18 +32,26 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  padding: 3rem 0;
+  padding: 9rem 0;
+  box-sizing: border-box;
+}
+@media (min-width: 40rem) {
+  .container .container {
+    padding: 3rem 0;
+  }
+}
+
+.sass-section, .sass-introduction {
+  border: 0.05rem solid #521751;
+  background: white;
+  padding: 2rem;
+  text-align: center;
+  width: 90%;
   box-sizing: border-box;
 }
 
 .sass-introduction {
-  border: 0.05rem solid #521751;
-  background: #fae5ff;
-  padding: 2rem;
-  text-align: center;
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
-  width: 90%;
-  box-sizing: border-box;
 }
 
 .sass-introduction p {
@@ -42,7 +63,7 @@ body {
   background: #fae5ff;
   padding: 1rem;
   text-align: center;
-  margin: 2rem 0;
+  margin: 24rem 0;
   width: 90%;
   box-sizing: border-box;
 }
@@ -85,14 +106,6 @@ body {
 }
 
 @media (min-width: 40rem) {
-  html {
-    font-size: 125%;
-  }
-
-  .container {
-    padding: 3rem 0;
-  }
-
   .sass-introduction,
 .sass-details {
     width: 30rem;

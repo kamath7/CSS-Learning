@@ -13,3 +13,6 @@ f) Conditions and Loops
 g) Variables 
 
 sass --watch main.scss main.css 
+
+function - lighten 
+inheritance - making classes. use @extend (@extend .sass-section;)
